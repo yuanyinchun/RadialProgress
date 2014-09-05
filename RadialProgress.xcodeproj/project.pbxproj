@@ -19,6 +19,14 @@
 		6F05602819B97203007C6AD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F05601019B97202007C6AD5 /* UIKit.framework */; };
 		6F05603019B97203007C6AD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F05602E19B97203007C6AD5 /* InfoPlist.strings */; };
 		6F05603219B97203007C6AD5 /* RadialProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05603119B97203007C6AD5 /* RadialProgressTests.m */; };
+		6F05604019B972C9007C6AD5 /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05603F19B972C9007C6AD5 /* ViewControllerOne.m */; };
+		6F05604319B972E3007C6AD5 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05604219B972E3007C6AD5 /* ViewControllerTwo.m */; };
+		6F05604619B972F7007C6AD5 /* ViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05604519B972F7007C6AD5 /* ViewControllerThree.m */; };
+		6F05604919B9733F007C6AD5 /* RadialProgressOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05604819B9733F007C6AD5 /* RadialProgressOne.m */; };
+		6F05604C19B97403007C6AD5 /* RadialProgressTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05604B19B97403007C6AD5 /* RadialProgressTwo.m */; };
+		6F05604F19B9743B007C6AD5 /* RadialProgressThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05604E19B9743B007C6AD5 /* RadialProgressThree.m */; };
+		6F05605219B97515007C6AD5 /* RadialProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05605119B97515007C6AD5 /* RadialProgressLayer.m */; };
+		6F05605519B9767D007C6AD5 /* RadialProgressBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05605419B9767D007C6AD5 /* RadialProgressBackView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,22 @@
 		6F05602D19B97203007C6AD5 /* RadialProgressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadialProgressTests-Info.plist"; sourceTree = "<group>"; };
 		6F05602F19B97203007C6AD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F05603119B97203007C6AD5 /* RadialProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadialProgressTests.m; sourceTree = "<group>"; };
+		6F05603E19B972C9007C6AD5 /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		6F05603F19B972C9007C6AD5 /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		6F05604119B972E3007C6AD5 /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		6F05604219B972E3007C6AD5 /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+		6F05604419B972F7007C6AD5 /* ViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThree.h; sourceTree = "<group>"; };
+		6F05604519B972F7007C6AD5 /* ViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThree.m; sourceTree = "<group>"; };
+		6F05604719B9733F007C6AD5 /* RadialProgressOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialProgressOne.h; sourceTree = "<group>"; };
+		6F05604819B9733F007C6AD5 /* RadialProgressOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialProgressOne.m; sourceTree = "<group>"; };
+		6F05604A19B97403007C6AD5 /* RadialProgressTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialProgressTwo.h; sourceTree = "<group>"; };
+		6F05604B19B97403007C6AD5 /* RadialProgressTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialProgressTwo.m; sourceTree = "<group>"; };
+		6F05604D19B9743B007C6AD5 /* RadialProgressThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialProgressThree.h; sourceTree = "<group>"; };
+		6F05604E19B9743B007C6AD5 /* RadialProgressThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialProgressThree.m; sourceTree = "<group>"; };
+		6F05605019B97515007C6AD5 /* RadialProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialProgressLayer.h; sourceTree = "<group>"; };
+		6F05605119B97515007C6AD5 /* RadialProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialProgressLayer.m; sourceTree = "<group>"; };
+		6F05605319B9767D007C6AD5 /* RadialProgressBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialProgressBackView.h; sourceTree = "<group>"; };
+		6F05605419B9767D007C6AD5 /* RadialProgressBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialProgressBackView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,9 @@
 		6F05600019B97201007C6AD5 = {
 			isa = PBXGroup;
 			children = (
+				6F05603D19B97280007C6AD5 /* RadialProgressWithAnimationFinal */,
+				6F05603C19B97265007C6AD5 /* RadialProgressWithAnimation */,
+				6F05603B19B97237007C6AD5 /* RadialProgressWithoutAnimation */,
 				6F05601219B97202007C6AD5 /* RadialProgress */,
 				6F05602B19B97203007C6AD5 /* RadialProgressTests */,
 				6F05600B19B97202007C6AD5 /* Frameworks */,
@@ -142,6 +169,43 @@
 				6F05602E19B97203007C6AD5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F05603B19B97237007C6AD5 /* RadialProgressWithoutAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6F05603E19B972C9007C6AD5 /* ViewControllerOne.h */,
+				6F05603F19B972C9007C6AD5 /* ViewControllerOne.m */,
+				6F05604719B9733F007C6AD5 /* RadialProgressOne.h */,
+				6F05604819B9733F007C6AD5 /* RadialProgressOne.m */,
+			);
+			name = RadialProgressWithoutAnimation;
+			sourceTree = "<group>";
+		};
+		6F05603C19B97265007C6AD5 /* RadialProgressWithAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6F05604119B972E3007C6AD5 /* ViewControllerTwo.h */,
+				6F05604219B972E3007C6AD5 /* ViewControllerTwo.m */,
+				6F05604A19B97403007C6AD5 /* RadialProgressTwo.h */,
+				6F05604B19B97403007C6AD5 /* RadialProgressTwo.m */,
+				6F05605019B97515007C6AD5 /* RadialProgressLayer.h */,
+				6F05605119B97515007C6AD5 /* RadialProgressLayer.m */,
+			);
+			name = RadialProgressWithAnimation;
+			sourceTree = "<group>";
+		};
+		6F05603D19B97280007C6AD5 /* RadialProgressWithAnimationFinal */ = {
+			isa = PBXGroup;
+			children = (
+				6F05604419B972F7007C6AD5 /* ViewControllerThree.h */,
+				6F05604519B972F7007C6AD5 /* ViewControllerThree.m */,
+				6F05604D19B9743B007C6AD5 /* RadialProgressThree.h */,
+				6F05604E19B9743B007C6AD5 /* RadialProgressThree.m */,
+				6F05605319B9767D007C6AD5 /* RadialProgressBackView.h */,
+				6F05605419B9767D007C6AD5 /* RadialProgressBackView.m */,
+			);
+			name = RadialProgressWithAnimationFinal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F05604019B972C9007C6AD5 /* ViewControllerOne.m in Sources */,
 				6F05601D19B97203007C6AD5 /* AppDelegate.m in Sources */,
+				6F05604F19B9743B007C6AD5 /* RadialProgressThree.m in Sources */,
+				6F05605519B9767D007C6AD5 /* RadialProgressBackView.m in Sources */,
+				6F05604919B9733F007C6AD5 /* RadialProgressOne.m in Sources */,
+				6F05604C19B97403007C6AD5 /* RadialProgressTwo.m in Sources */,
 				6F05601919B97202007C6AD5 /* main.m in Sources */,
+				6F05604619B972F7007C6AD5 /* ViewControllerThree.m in Sources */,
+				6F05604319B972E3007C6AD5 /* ViewControllerTwo.m in Sources */,
+				6F05605219B97515007C6AD5 /* RadialProgressLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

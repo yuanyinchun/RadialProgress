@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewControllerOne.h"
+#import "ViewControllerTwo.h"
+#import "ViewControllerThree.h"
 
 @implementation AppDelegate
 
@@ -14,6 +17,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    ViewControllerOne *one=[[ViewControllerOne alloc]init];
+    ViewControllerTwo *two=[[ViewControllerTwo alloc]init];
+    ViewControllerThree *three=[[ViewControllerThree alloc]init];
+    
+    UITabBarController *tabBarController=[[UITabBarController alloc]init];
+    tabBarController.viewControllers=@[                                     one,two,three                                       ];
+    
+    self.window.rootViewController=tabBarController;
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
