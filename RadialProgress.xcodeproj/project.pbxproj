@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F05600D19B97202007C6AD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F05600C19B97202007C6AD5 /* Foundation.framework */; };
+		6F05600F19B97202007C6AD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F05600E19B97202007C6AD5 /* CoreGraphics.framework */; };
+		6F05601119B97202007C6AD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F05601019B97202007C6AD5 /* UIKit.framework */; };
+		6F05601719B97202007C6AD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F05601519B97202007C6AD5 /* InfoPlist.strings */; };
+		6F05601919B97202007C6AD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05601819B97202007C6AD5 /* main.m */; };
+		6F05601D19B97203007C6AD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05601C19B97203007C6AD5 /* AppDelegate.m */; };
+		6F05601F19B97203007C6AD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F05601E19B97203007C6AD5 /* Images.xcassets */; };
+		6F05602619B97203007C6AD5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F05602519B97203007C6AD5 /* XCTest.framework */; };
+		6F05602719B97203007C6AD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F05600C19B97202007C6AD5 /* Foundation.framework */; };
+		6F05602819B97203007C6AD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F05601019B97202007C6AD5 /* UIKit.framework */; };
+		6F05603019B97203007C6AD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F05602E19B97203007C6AD5 /* InfoPlist.strings */; };
+		6F05603219B97203007C6AD5 /* RadialProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F05603119B97203007C6AD5 /* RadialProgressTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F05602919B97203007C6AD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F05600119B97201007C6AD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F05600819B97202007C6AD5;
+			remoteInfo = RadialProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F05600919B97202007C6AD5 /* RadialProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadialProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F05600C19B97202007C6AD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F05600E19B97202007C6AD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F05601019B97202007C6AD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F05601419B97202007C6AD5 /* RadialProgress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadialProgress-Info.plist"; sourceTree = "<group>"; };
+		6F05601619B97202007C6AD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F05601819B97202007C6AD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F05601A19B97202007C6AD5 /* RadialProgress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RadialProgress-Prefix.pch"; sourceTree = "<group>"; };
+		6F05601B19B97202007C6AD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F05601C19B97203007C6AD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F05601E19B97203007C6AD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F05602419B97203007C6AD5 /* RadialProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadialProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F05602519B97203007C6AD5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6F05602D19B97203007C6AD5 /* RadialProgressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadialProgressTests-Info.plist"; sourceTree = "<group>"; };
+		6F05602F19B97203007C6AD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F05603119B97203007C6AD5 /* RadialProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadialProgressTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F05600619B97202007C6AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F05600F19B97202007C6AD5 /* CoreGraphics.framework in Frameworks */,
+				6F05601119B97202007C6AD5 /* UIKit.framework in Frameworks */,
+				6F05600D19B97202007C6AD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F05602119B97203007C6AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F05602619B97203007C6AD5 /* XCTest.framework in Frameworks */,
+				6F05602819B97203007C6AD5 /* UIKit.framework in Frameworks */,
+				6F05602719B97203007C6AD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F05600019B97201007C6AD5 = {
+			isa = PBXGroup;
+			children = (
+				6F05601219B97202007C6AD5 /* RadialProgress */,
+				6F05602B19B97203007C6AD5 /* RadialProgressTests */,
+				6F05600B19B97202007C6AD5 /* Frameworks */,
+				6F05600A19B97202007C6AD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F05600A19B97202007C6AD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F05600919B97202007C6AD5 /* RadialProgress.app */,
+				6F05602419B97203007C6AD5 /* RadialProgressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F05600B19B97202007C6AD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F05600C19B97202007C6AD5 /* Foundation.framework */,
+				6F05600E19B97202007C6AD5 /* CoreGraphics.framework */,
+				6F05601019B97202007C6AD5 /* UIKit.framework */,
+				6F05602519B97203007C6AD5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F05601219B97202007C6AD5 /* RadialProgress */ = {
+			isa = PBXGroup;
+			children = (
+				6F05601B19B97202007C6AD5 /* AppDelegate.h */,
+				6F05601C19B97203007C6AD5 /* AppDelegate.m */,
+				6F05601E19B97203007C6AD5 /* Images.xcassets */,
+				6F05601319B97202007C6AD5 /* Supporting Files */,
+			);
+			path = RadialProgress;
+			sourceTree = "<group>";
+		};
+		6F05601319B97202007C6AD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F05601419B97202007C6AD5 /* RadialProgress-Info.plist */,
+				6F05601519B97202007C6AD5 /* InfoPlist.strings */,
+				6F05601819B97202007C6AD5 /* main.m */,
+				6F05601A19B97202007C6AD5 /* RadialProgress-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F05602B19B97203007C6AD5 /* RadialProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F05603119B97203007C6AD5 /* RadialProgressTests.m */,
+				6F05602C19B97203007C6AD5 /* Supporting Files */,
+			);
+			path = RadialProgressTests;
+			sourceTree = "<group>";
+		};
+		6F05602C19B97203007C6AD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F05602D19B97203007C6AD5 /* RadialProgressTests-Info.plist */,
+				6F05602E19B97203007C6AD5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F05600819B97202007C6AD5 /* RadialProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F05603519B97203007C6AD5 /* Build configuration list for PBXNativeTarget "RadialProgress" */;
+			buildPhases = (
+				6F05600519B97202007C6AD5 /* Sources */,
+				6F05600619B97202007C6AD5 /* Frameworks */,
+				6F05600719B97202007C6AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadialProgress;
+			productName = RadialProgress;
+			productReference = 6F05600919B97202007C6AD5 /* RadialProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F05602319B97203007C6AD5 /* RadialProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F05603819B97203007C6AD5 /* Build configuration list for PBXNativeTarget "RadialProgressTests" */;
+			buildPhases = (
+				6F05602019B97203007C6AD5 /* Sources */,
+				6F05602119B97203007C6AD5 /* Frameworks */,
+				6F05602219B97203007C6AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F05602A19B97203007C6AD5 /* PBXTargetDependency */,
+			);
+			name = RadialProgressTests;
+			productName = RadialProgressTests;
+			productReference = 6F05602419B97203007C6AD5 /* RadialProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F05600119B97201007C6AD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yyc;
+				TargetAttributes = {
+					6F05602319B97203007C6AD5 = {
+						TestTargetID = 6F05600819B97202007C6AD5;
+					};
+				};
+			};
+			buildConfigurationList = 6F05600419B97201007C6AD5 /* Build configuration list for PBXProject "RadialProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F05600019B97201007C6AD5;
+			productRefGroup = 6F05600A19B97202007C6AD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F05600819B97202007C6AD5 /* RadialProgress */,
+				6F05602319B97203007C6AD5 /* RadialProgressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F05600719B97202007C6AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F05601719B97202007C6AD5 /* InfoPlist.strings in Resources */,
+				6F05601F19B97203007C6AD5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F05602219B97203007C6AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F05603019B97203007C6AD5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F05600519B97202007C6AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F05601D19B97203007C6AD5 /* AppDelegate.m in Sources */,
+				6F05601919B97202007C6AD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F05602019B97203007C6AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F05603219B97203007C6AD5 /* RadialProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F05602A19B97203007C6AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F05600819B97202007C6AD5 /* RadialProgress */;
+			targetProxy = 6F05602919B97203007C6AD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F05601519B97202007C6AD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F05601619B97202007C6AD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F05602E19B97203007C6AD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F05602F19B97203007C6AD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F05603319B97203007C6AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F05603419B97203007C6AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F05603619B97203007C6AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadialProgress/RadialProgress-Prefix.pch";
+				INFOPLIST_FILE = "RadialProgress/RadialProgress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F05603719B97203007C6AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadialProgress/RadialProgress-Prefix.pch";
+				INFOPLIST_FILE = "RadialProgress/RadialProgress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6F05603919B97203007C6AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RadialProgress.app/RadialProgress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadialProgress/RadialProgress-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RadialProgressTests/RadialProgressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6F05603A19B97203007C6AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RadialProgress.app/RadialProgress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadialProgress/RadialProgress-Prefix.pch";
+				INFOPLIST_FILE = "RadialProgressTests/RadialProgressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F05600419B97201007C6AD5 /* Build configuration list for PBXProject "RadialProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F05603319B97203007C6AD5 /* Debug */,
+				6F05603419B97203007C6AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F05603519B97203007C6AD5 /* Build configuration list for PBXNativeTarget "RadialProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F05603619B97203007C6AD5 /* Debug */,
+				6F05603719B97203007C6AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F05603819B97203007C6AD5 /* Build configuration list for PBXNativeTarget "RadialProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F05603919B97203007C6AD5 /* Debug */,
+				6F05603A19B97203007C6AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F05600119B97201007C6AD5 /* Project object */;
+}
